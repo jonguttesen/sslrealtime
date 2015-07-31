@@ -20,8 +20,6 @@ http.createServer( function(req, res) {
 //https://blistering-inferno-3618.firebaseio.com/
 
 function fetchAIS(url, routeId) {
-	//"http://api.aprs.fi/api/get?name=XPWG&what=loc&apikey=77762.oOV3xGkufmrSN&format=json"
-
 	http.get(url, function(res) {
 	    var body = '';
 
